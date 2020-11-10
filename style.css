@@ -10,21 +10,11 @@ background-color: lightgray;
     text-align: center;
 }
 
-.center{
-    text-align: center;
-    font-style: italic;
-   
-}
-
-.bold{
-    font-weight: bold;
-}
-
 #img-div{
     margin: auto;
     height: 100%;
     width: 100%;
-    border: white 10px dashed;
+    border: white 10px dotted;
     padding: 10px;
    background-color: white;
 }
@@ -33,3 +23,28 @@ ul{
     text-align: center;
 }
 
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+  }
+
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
